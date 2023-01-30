@@ -23,3 +23,8 @@ No. Lots 1 and 2 have relatively low variance in the PSI. However, the data show
 ![Overall Variance](https://github.com/veachk90/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(229).png)
 
 ![Variance by Lot](https://github.com/veachk90/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(230).png)
+
+## t-test Comparison
+Having determined the variation of the PSI in the suspension coils, the next question to ask was whether the variation was statistically significant, even if the PSI variation was within a specified range. The expected mean PSI is 1500, so this was used as the basis for comparison in a series of t-tests. The first compared the mean PSI across all lots with the expected mean of 1500. This produced a p-value of 0.0603, which was above the given alpha of 0.05. Thus, I fail to reject the null hypothesis, which is that there is no significant difference between the observed mean and the expected mean. T-tests for Lot 1 and Lot 2 yielded p-values of 1 and 0.6072, which are also high enough that I fail to reject the null hypothesis. A t-test between the mean PSI of Lot 3 and the expected mean PSI of 1500 produced a p-value of 0.0417, which was below the alpha of 0.05. Thus, I reject the null hypothesis for Lot 3, and conclude that the difference in means is statistically significant.
+
+![t-test Comparisons]()
