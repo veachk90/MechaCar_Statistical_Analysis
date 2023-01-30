@@ -28,3 +28,17 @@ No. Lots 1 and 2 have relatively low variance in the PSI. However, the data show
 Having determined the variation of the PSI in the suspension coils, the next question to ask was whether the variation was statistically significant, even if the PSI variation was within a specified range. The expected mean PSI is 1500, so this was used as the basis for comparison in a series of t-tests. The first compared the mean PSI across all lots with the expected mean of 1500. This produced a p-value of 0.0603, which was above the given alpha of 0.05. Thus, I fail to reject the null hypothesis, which is that there is no significant difference between the observed mean and the expected mean. T-tests for Lot 1 and Lot 2 yielded p-values of 1 and 0.6072, which are also high enough that I fail to reject the null hypothesis. A t-test between the mean PSI of Lot 3 and the expected mean PSI of 1500 produced a p-value of 0.0417, which was below the alpha of 0.05. Thus, I reject the null hypothesis for Lot 3, and conclude that the difference in means is statistically significant.
 
 ![t-test Comparisons](https://github.com/veachk90/MechaCar_Statistical_Analysis/blob/main/Screenshot%20(232).png)
+
+## Study Design: MechaCar vs Competition
+What metric or metrics are you going to test?
+First, I want to consider whom the competition is. Likely, they produce vehicles of similar performance for similar cost to the customer. Thus, my study will emphasize variables that are likely to have a greater impact on a vehicle's performance. From the data available on MechCar's vehicles, it appears that vehicle weight and ground clearance are the most likely indicators of miles per gallon. Thus, I would want to include these variables in the competition's vehicle data as well. 
+
+What is the null hypothesis or alternative hypothesis?
+The null hypothesis is that there is no significant difference between the weight and ground clearance of MechaCar's vehicles and those of the competitor's.
+The alternate hypothesis is that there is a significant difference between the weight and ground clearnace of MechaCar's vehicles and those of the competitor's.
+
+What statistical test would you use to test the hypothesis? And why?
+A series of t-tests, similar to what was done with the suspension coil PSI, would likely be able to show whether any differences are statistically significant. It could also be worth considering a linear regression model for the competitors vehicles, if the data is available, to determine whether the factors that affect MechaCar's mpg are the same for the competitor's.
+
+What data is needed to run the statistical test?
+A sample of at least 30 vehicles that consists of vehicle weight and ground clearance. Data on additional variables would be helpful to gain additional insight from the analysis, but for the basis of comparison, these should be considered the minimum data.
