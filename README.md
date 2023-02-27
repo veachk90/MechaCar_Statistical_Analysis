@@ -9,7 +9,7 @@ There are two variables that distinguish themselves as those least likely to pro
 
 Is the slope of the linear model considered to be zero? Why or why not?
 
-The slope of hte linear model is not considered to be zero. In linear regression, the null hypothesis is that the slope of the model's line is 0, meaning that it is likely that each variable's contribution to the model is random. In this case, since at least one variable has statistically-significant p-values, I reject the null hypothesis, which implies that it is likely that the slope of the model's line is not zero.
+The slope of the linear model is not considered to be zero. In linear regression, the null hypothesis is that the slope of the model's line is 0, meaning that it is likely that each variable's contribution to the model is random. In this case, since at least one variable has statistically-significant p-values, I reject the null hypothesis, which implies that it is likely that the slope of the model's line is not zero.
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
